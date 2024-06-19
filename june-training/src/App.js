@@ -1,5 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
+import Car from './components/Car';
+import IncrementDecrement from './components/IncrementDecrement';
 
 function App() {
   const myName="Roopali";
@@ -11,6 +13,8 @@ function App() {
     <h2>{date}</h2>
     <h3>{collegeName}</h3>
     <h4>{4*4}</h4>
+    <Car/>
+  
     </div>
   );
 }
