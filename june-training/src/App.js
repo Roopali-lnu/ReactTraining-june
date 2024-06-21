@@ -1,6 +1,8 @@
 import logo from './logo.svg';
 import './App.css';
-import Car from './components/Car';
+import CarComponent from './components/Car';
+import Timer from './components/Timer';
+import LoginForm from './components/Form';
 import IncrementDecrement from './components/IncrementDecrement';
 
 function App() {
@@ -13,7 +15,10 @@ function App() {
     <h2>{date}</h2>
     <h3>{collegeName}</h3>
     <h4>{4*4}</h4>
-    <Car/>
+    <CarComponent/>
+    <Timer/>
+    <LoginForm/>
+    
   
     </div>
   );
